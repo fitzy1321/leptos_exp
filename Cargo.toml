@@ -1,0 +1,12 @@
+[package]
+authors = ["fitzypop <fitzypop@pm.me>"]
+categories = ["web app", "leptos", "wasm"]
+description = "My Leptos Playground"
+edition = "2021"
+license = "Unlicense"
+name = "exp-leptos"
+readme = "./README.md"
+repository = "https://github.com/fitzypop/exp-leptos"
+version = "0.1.0"
+
+[dependencies]
