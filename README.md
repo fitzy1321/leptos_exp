@@ -12,7 +12,7 @@ What's it like making a web app with Leptos?
 ```sh
 rustup toolchain install nightly
 rustup target add wasm32-unknown-unknown
-cargo install trunk
+cargo install trunk cargo-leptos
 ```
 
 ## Run locally
@@ -24,6 +24,15 @@ To build and run server local: `just` or `just default`.
 All recipes are in `justfile`.
 
 All these tasks (currently) use [Trunk](https://trunkrs.dev/) WASM Web Application Bundler.
+
+## Some Notes
+
+```sh
+# this will generate a full leptos instance for ssr, ssg, and csr.
+cargo leptos new --git https://github.com/leptos-rs/start -n project-name
+
+cargo leptos watch
+```
 
 ## References
 
