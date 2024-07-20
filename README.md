@@ -10,6 +10,7 @@ What's it like making a web app with Leptos?
 3. Run the following to setup wasm dev environment on your local machine
 
 ```sh
+rustup toolchain install nightly
 rustup target add wasm32-unknown-unknown
 cargo install trunk
 ```
