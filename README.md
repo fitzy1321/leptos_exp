@@ -26,4 +26,4 @@ All these tasks (currently) use [Trunk](https://trunkrs.dev/) WASM Web Applicati
 
 ## References
 
-- <https://book.leptos.dev/getting_started/index.html>
+- <https://book.leptos.dev/>
