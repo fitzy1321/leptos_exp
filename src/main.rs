@@ -1,6 +1,15 @@
 use leptos::*;
 
 #[component]
+fn Navbar() -> impl IntoView {
+    view! {
+        <div>
+
+        </div>
+    }
+}
+
+#[component]
 pub fn SimpleCounter(initial_value: i32) -> impl IntoView {
     // create a reactive signal with the initial value
     let (value, set_value) = create_signal(initial_value);
@@ -27,6 +36,7 @@ pub fn SimpleCounter(initial_value: i32) -> impl IntoView {
 pub fn main() {
     mount_to_body(|| {
         view! {
+            <Navbar />
             <SimpleCounter initial_value=3 />
         }
     })
