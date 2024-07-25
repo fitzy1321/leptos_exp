@@ -4,9 +4,9 @@ categories = ["web app", "leptos", "wasm"]
 description = "My Leptos Playground"
 edition = "2021"
 license = "Unlicense"
-name = "exp-leptos"
+name = "leptos.exp"
 readme = "./README.md"
-repository = "https://github.com/fitzypop/exp-leptos"
+repository = "https://github.com/fitzypop/leptos.exp"
 version = "0.1.0"
 
 [dependencies]
