@@ -1,4 +1,6 @@
-default:
+default: run
+
+run:
     trunk serve
 
 build:
