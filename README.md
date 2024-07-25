@@ -37,3 +37,5 @@ cargo leptos watch
 ## References
 
 - <https://book.leptos.dev/>
+- <https://bulma.io/documentation>
+- <https://trunkrs.dev/assets>

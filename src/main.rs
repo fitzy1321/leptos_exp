@@ -3,9 +3,13 @@ use leptos::*;
 #[component]
 fn Navbar() -> impl IntoView {
     view! {
-        <div>
-
-        </div>
+        <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="navbar-item"><strong>My Leptos Site</strong></a>
+                </div>
+            </div>
+        </nav>
     }
 }
 
