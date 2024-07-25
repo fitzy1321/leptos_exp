@@ -11,3 +11,6 @@ version = "0.1.0"
 
 [dependencies]
 leptos = { version = "0.6", features = ["csr", "nightly"] }
+
+[dev-dependencies]
+wasm-bindgen-test = "0.3"
