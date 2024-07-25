@@ -1,6 +1,7 @@
 # Experiment Leptos
 
-What's it like making a web app with Leptos?
+Q: What's it like making a web app with Leptos?
+A: Pretty freaking sweet ✨ 😎 🚀
 
 ## Setup
 
@@ -12,23 +13,22 @@ What's it like making a web app with Leptos?
 ```sh
 rustup toolchain install nightly
 rustup target add wasm32-unknown-unknown
-cargo install trunk cargo-leptos
+cargo install trunk
 ```
 
 ## Run locally
 
 Make sure everything above is done first ☝️.
 
-To build and run server local: `just` or `just default`.
+To build and run locally: `just` or `just default`.
 
-All recipes are in `justfile`.
-
-All these tasks (currently) use [Trunk](https://trunkrs.dev/) WASM Web Application Bundler.
+Check out `justfile` for common tasks. Tasks are (currently) use [Trunk](https://trunkrs.dev/) WASM Web Application Bundler.
 
 ## Some Notes
 
 ```sh
 # this will generate a full leptos instance for ssr, ssg, and csr.
+cargo install cargo-leptos
 cargo leptos new --git https://github.com/leptos-rs/start -n project-name
 
 cargo leptos watch
